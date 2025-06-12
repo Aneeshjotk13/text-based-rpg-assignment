@@ -45,7 +45,7 @@ if ans1 == "a":
                     print("You smash in and rescue hostages. You spot a woman sitting in the corner.")
                     print("Do you ask:")
                     print("[A] 'Are you Sara’s mom?'")
-                    print("[W] 'What are you sitting in a corner not on the chair?'")
+                    print("[W] 'Why are you sitting in a corner not on the chair?'")
                     ans6 = input("Choice: ").lower().strip()
                     
                     if ans6 == "a":
