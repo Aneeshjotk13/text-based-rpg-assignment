@@ -1,10 +1,11 @@
 # Text based rpg: One wish away
 # Welcome user to the game and ask their name
 name = input("Welcome to One wish away! What is your name? ")
-print(f"Hi {name}! Get ready to explore your destiny so lets get started...\n")
+print(f"Hi {name}! Are you ready to explore your destiny so lets get started...\n")
 
 # Start the game
-print("You're walking home from school and notice an old man lying on the ground.")
+print("You are a person who always daydreams a lot to become a superhero in real life.One day, you were walking home from school and notice an old man lying on the ground.")
+print("Now what will you do?")
 print("[A]pproach the man carefully.")
 print("[I]gnore him and keep walking.")
 ans1 = input("Your answer: ").lower().strip()
@@ -13,7 +14,7 @@ ans1 = input("Your answer: ").lower().strip()
 if ans1 == "a":
     
     print("You kneel beside him. He opens his eyes slowly and begs for water.")
-    print("Now what will you do? ")
+    print("What will you prefer to do? ")
     print("[G]ive him food and water.")
     print("[L]eave him behind.")
     ans2 = input("Choice: ").lower().strip()
