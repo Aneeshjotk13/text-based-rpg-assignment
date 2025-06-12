@@ -13,7 +13,7 @@ ans1 = input("Your answer: ").lower().strip()
 # Check their answer.
 if ans1 == "a":
     
-    print("You kneel beside him. He opens his eyes slowly and begs for water.")
+    print("You kneel beside him. He opens his eyes slowly and begs for food and water.")
     print("What will you prefer to do? ")
     print("[G]ive him food and water.")
     print("[L]eave him behind.")
